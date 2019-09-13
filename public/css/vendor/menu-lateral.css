@@ -1,0 +1,203 @@
+/* 
+    MENU LATERAL   
+ */
+
+/* Sidebar */
+.sidebar {
+    min-height: calc(100vh - 70px);
+    background: #ffffff;
+    font-family: "ubuntu-regular", sans-serif;
+    padding: 0;
+    /*width: 260px;*/
+    z-index: 11;
+    transition: width 0.25s ease, background 0.25s ease;
+    -webkit-transition: width 0.25s ease, background 0.25s ease;
+    -moz-transition: width 0.25s ease, background 0.25s ease;
+    -ms-transition: width 0.25s ease, background 0.25s ease;
+  }
+  
+  .sidebar .nav {
+    overflow: hidden;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  
+  .sidebar .nav .nav-item {
+    /*padding: 0 2.25rem;*/
+    padding: 0 0.75rem;
+    -webkit-transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    transition-property: background;
+    -webkit-transition-property: background;
+  }
+  
+  .sidebar .nav .nav-item .collapse {
+    z-index: 999;
+  }
+  
+  .sidebar .nav .nav-item .nav-link {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    white-space: inherit;
+    padding: 1.125rem 0 1.125rem 0;
+    color: #3e4b5b;
+    -webkit-transition-duration: 0.45s;
+    -moz-transition-duration: 0.45s;
+    -o-transition-duration: 0.45s;
+    transition-duration: 0.45s;
+    transition-property: color;
+    -webkit-transition-property: color;
+  }
+  
+  .sidebar .nav .nav-item .nav-link i {
+    color: inherit;
+  }
+  
+  .sidebar .nav .nav-item .nav-link .menu-title {
+    color: inherit;
+    display: inline-block;
+    font-size: 0.875rem;
+    line-height: 1;
+    vertical-align: middle;
+    font-family: "ubuntu-medium", sans-serif;
+  }
+  
+  .color-ico{
+    color: #bba8bff5;
+  }
+  
+  .sidebar .nav .nav-item.active {
+    background: #ffffff;
+  }
+  
+  .sidebar .nav .nav-item.active > .nav-link .menu-title {
+    color: #bf1725;
+    font-family: "ubuntu-medium", sans-serif;
+    font-weight: bold;
+  }
+  
+  .sidebar .nav .nav-item.active > .nav-link i {
+    color: #b66dff;
+  }
+  /*
+  .sidebar .nav .nav-item:hover {
+    background: #f205053b;
+  }*/
+  
+  .menu-titulo{
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .menu-categoria{
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    
+  }
+  
+  .menu-categoria:hover{
+    color: #ef920f;
+  }
+  
+  .menu-sub-categoria:hover{
+    color: #ef920f;
+  }
+  
+  .menu-sub-categoria{
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    
+  }
+  
+  .sidebar .nav .nav-item.nav-profile .nav-link {
+    height: auto;
+    line-height: 1;
+    border-top: 0;
+    padding: 1.25rem 0;
+  }
+  
+  .sidebar .nav .nav-item.nav-profile .nav-link .nav-profile-image {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .sidebar .nav .nav-item.nav-profile .nav-link .nav-profile-image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+  }
+  
+  .sidebar .nav .nav-item.nav-profile .nav-link .nav-profile-text {
+    margin-left: 1rem;
+  }
+  
+  .sidebar .nav .nav-item.nav-profile .nav-link .nav-profile-badge {
+    font-size: 1.125rem;
+    margin-left: auto;
+  }
+  
+  .sidebar .nav .nav-item.sidebar-actions {
+    margin-top: 1rem;
+  }
+  
+  .sidebar .nav .nav-item.sidebar-actions .nav-link {
+    border-top: 0;
+    display: block;
+    height: auto;
+  }
+  
+  .sidebar .nav .nav-item.sidebar-actions:hover {
+    background: initial;
+  }
+  
+  .sidebar .nav .nav-item.sidebar-actions:hover .nav-link {
+    color: initial;
+  }
+  
+  .sidebar .nav:not(.sub-menu) > .nav-item:hover:not(.nav-category):not(.nav-profile) > .nav-link {
+    color: #29323d;
+  }
+  
+  .sidebar .nav.sub-menu {
+    margin-bottom: 20px;
+    margin-top: 0;
+    list-style: none;
+    font-size: 0.8125rem;
+  }
+  
+  .sidebar .nav.sub-menu .nav-item {
+    padding: 0;
+  }
+  
+  .sidebar .nav.sub-menu .nav-item .nav-link {
+    color: #888;
+    padding: 0.75rem 2rem 0.75rem 2rem;
+    position: relative;
+    font-size: 0.8125rem;
+    line-height: 1;
+    height: auto;
+    border-top: 0;
+  }
+  
+  
+  .nav-link:hover{
+    color: #c51725;
+  }
+  .sidebar .nav.sub-menu .nav-item .nav-link.active {
+    color: #c51725;
+    background: transparent;
+  }
+  
+  .sidebar .nav.sub-menu .nav-item .nav-link:hover {
+    color: #c51725;
+    background: transparent;
+  }
+  
+  .sidebar .nav.sub-menu .nav-item:hover {
+    background: transparent;
+  }
+  
