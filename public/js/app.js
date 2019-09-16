@@ -67635,7 +67635,7 @@ var render = function() {
                 { staticClass: "my-1 py-0", attrs: { variant: "dark" } },
                 [
                   _vm._v(
-                    "\n                AGRUPAR ARTICULOS DE ALTA\n            "
+                    "\n                AGRUPAR ARTICULOS DE ALTAa\n            "
                   )
                 ]
               )

@@ -54,7 +54,7 @@
             
             <b-col lg="2" sm="6" md="6" class="mt-0 text-left">
                 <b-button variant="dark" class="my-1 py-0">
-                    AGRUPAR ARTICULOS DE ALTA
+                    AGRUPAR ARTICULOS DE ALTAa
                 </b-button >
             </b-col>
             <b-col lg="2" sm="6" md="6" class="mt-0 text-left">
